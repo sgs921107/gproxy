@@ -4,7 +4,6 @@ go 1.23.3
 
 require (
 	github.com/elazarl/goproxy v0.0.0-20240909085733-6741dbfc16a1
-	github.com/mcuadros/go-defaults v1.2.0
 	github.com/sgs921107/glogging v0.0.0-20241107152830-9261fdea5cde
 )
 

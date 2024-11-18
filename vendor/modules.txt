@@ -8,9 +8,6 @@ github.com/lestrrat-go/file-rotatelogs/internal/option
 # github.com/lestrrat-go/strftime v1.0.3
 ## explicit; go 1.12
 github.com/lestrrat-go/strftime
-# github.com/mcuadros/go-defaults v1.2.0
-## explicit; go 1.14
-github.com/mcuadros/go-defaults
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors

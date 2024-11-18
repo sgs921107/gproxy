@@ -41,7 +41,7 @@ func (m *EchoRespMiddleware) OnResponse(resp *http.Response, ctx *goproxy.ProxyC
 }
 
 func main() {
-	proxyServer := gproxy.NewSimpleProxy(&gproxy.ProxyOptions{})
+	proxyServer := gproxy.NewSimpleProxy(&gproxy.ProxyOptions{HttpsMitm: true})
 	proxyServer.AddMiddleware(gproxy.Middleware(&EchoRespMiddleware{}))
 	proxyServer.ListenAndServe()
 }
